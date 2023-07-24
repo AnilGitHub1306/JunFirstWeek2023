@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="2" parallel="classes" name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="2" parallel="classes" name="Test(failed)">
+    <classes>
+      <class name="Com.DemoQA.TestPackage.TC02_VerifyTheTextboxFiedAcceptingTheText">
+        <methods>
+          <include name="VerifyTheTextboxFiedAcceptingTheText"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- Com.DemoQA.TestPackage.TC02_VerifyTheTextboxFiedAcceptingTheText -->
+      <class name="practice.TC21_PracticeForm">
+        <methods>
+          <include name="PracticeForm"/>
+        </methods>
+      </class> <!-- practice.TC21_PracticeForm -->
+      <class name="practice.TC14_lickActionByJavaScriptExecutor">
+        <methods>
+          <include name="JavaScriptExecutor"/>
+        </methods>
+      </class> <!-- practice.TC14_lickActionByJavaScriptExecutor -->
+      <class name="practice.TC13_HandleFrames">
+        <methods>
+          <include name="framehandling"/>
+        </methods>
+      </class> <!-- practice.TC13_HandleFrames -->
+      <class name="practice.TC08_VerifyNewWindowMassage">
+        <methods>
+          <include name="VerifyNewWindowMassage"/>
+        </methods>
+      </class> <!-- practice.TC08_VerifyNewWindowMassage -->
+      <class name="practice.TC15_CounrTotalLinkWhenFilterBySamsung">
+        <methods>
+          <include name="CounrTotalLinkWhenFilterBySamsung"/>
+        </methods>
+      </class> <!-- practice.TC15_CounrTotalLinkWhenFilterBySamsung -->
+      <class name="Com.DemoQA.TestPackage.TC04_VerifyTheRadioButtonsAreClickable">
+        <methods>
+          <include name="VerifyTheRadioButtonYesIsClickable"/>
+          <include name="tearDown"/>
+          <include name="VerifyTheRadioButtonImpressiveIsClickable"/>
+          <include name="VerifyTheRadioButtonNoIsClickable"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- Com.DemoQA.TestPackage.TC04_VerifyTheRadioButtonsAreClickable -->
+      <class name="practice.TC22_TakseScreenshot">
+        <methods>
+          <include name="TakseScreenshot"/>
+        </methods>
+      </class> <!-- practice.TC22_TakseScreenshot -->
+      <class name="practice.TC04_VerifyThatUploadworkingFine">
+        <methods>
+          <include name="UploadworkingFile"/>
+        </methods>
+      </class> <!-- practice.TC04_VerifyThatUploadworkingFine -->
+      <class name="practice.TC12_HandleAlertOnClickBySendingName">
+        <methods>
+          <include name="HandleAlertOnClickBySendingName"/>
+        </methods>
+      </class> <!-- practice.TC12_HandleAlertOnClickBySendingName -->
+      <class name="practice.TC06_VerifyFileUploadByRobotClass">
+        <methods>
+          <include name="FileUploadByRobotClass"/>
+        </methods>
+      </class> <!-- practice.TC06_VerifyFileUploadByRobotClass -->
+      <class name="practice.TC20_InputfromExelSheet">
+        <methods>
+          <include name="logintodemo"/>
+        </methods>
+      </class> <!-- practice.TC20_InputfromExelSheet -->
+      <class name="practice.TC18_handlenewtab">
+        <methods>
+          <include name="NewTab"/>
+        </methods>
+      </class> <!-- practice.TC18_handlenewtab -->
+      <class name="practice.TC02_VerifyBrokenLinks">
+        <methods>
+          <include name="BrokenLinks"/>
+        </methods>
+      </class> <!-- practice.TC02_VerifyBrokenLinks -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
