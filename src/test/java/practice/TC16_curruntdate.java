@@ -15,7 +15,7 @@ public class TC16_curruntdate
 		Date d = new Date();
 		
 		System.out.println(d);
-		SimpleDateFormat sdp = new SimpleDateFormat("YYYY-MM-dd & hh:mm:ss");
+		SimpleDateFormat sdp = new SimpleDateFormat("YYYY.MM.dd_hh:mm:ss");
 		
 		String date = sdp.format(d);
 		System.out.println(date);

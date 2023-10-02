@@ -27,6 +27,8 @@ import com.aventstack.extentreports.Status;
 import com.aventstack.extentreports.reporter.ExtentHtmlReporter;
 import com.aventstack.extentreports.reporter.configuration.Theme;
 
+import io.github.bonigarcia.wdm.WebDriverManager;
+
 
 public class ExtendReport 
 {
@@ -57,7 +59,8 @@ public class ExtendReport
 	public void setUp()
 	{	
 		PropertyConfigurator.configure("log4j.properties");
-		System.setProperty("webdriver.chrome.driver", "./driver/chromedriver.exe");
+	//	System.setProperty("webdriver.chrome.driver", "./driver/chromedriver.exe");
+		WebDriverManager.chromedriver().setup();
 		driver = new ChromeDriver();
 		log.info("Opening browser");
 		driver.manage().window().maximize();

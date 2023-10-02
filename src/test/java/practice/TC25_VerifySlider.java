@@ -20,7 +20,7 @@ public class TC25_VerifySlider
 		WebDriver driver = new ChromeDriver();
 		driver.manage().window().maximize();
 		
-		driver.get("fdsfdshttsps://demoqa.com/slider");
+		driver.get("https://demoqa.com/slider");
 		
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS );
 		

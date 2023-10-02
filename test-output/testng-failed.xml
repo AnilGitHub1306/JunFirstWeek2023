@@ -3,49 +3,12 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="Com.DemoQA.TestPackage.TC01_VerifyTheFunctionalityOfElementButton">
+      <class name="screenshot.ScreenShot_For_FailedTestCases">
         <methods>
-          <include name="extentSetup"/>
-          <include name="VerifyTheFunctionalityOfElementButton"/>
+          <include name="Test1"/>
           <include name="tearDown"/>
-          <include name="setUp"/>
         </methods>
-      </class> <!-- Com.DemoQA.TestPackage.TC01_VerifyTheFunctionalityOfElementButton -->
-      <class name="Com.DemoQA.TestPackage.TC06_VerifyTheLinkBrokenandnormal">
-        <methods>
-          <include name="extentSetup"/>
-          <include name="VerifyTheLinkBrokenandnormal"/>
-          <include name="tearDown"/>
-          <include name="setUp"/>
-        </methods>
-      </class> <!-- Com.DemoQA.TestPackage.TC06_VerifyTheLinkBrokenandnormal -->
-      <class name="Com.DemoQA.TestPackage.TC05_VerifyThatNumberofLinksPresent">
-        <methods>
-          <include name="extentSetup"/>
-          <include name="VerifyThatNumberofLinksPresent"/>
-          <include name="tearDown"/>
-          <include name="setUp"/>
-        </methods>
-      </class> <!-- Com.DemoQA.TestPackage.TC05_VerifyThatNumberofLinksPresent -->
-      <class name="Com.DemoQA.TestPackage.TC03_VerifyThatHomeButtonClickeble">
-        <methods>
-          <include name="extentSetup"/>
-          <include name="VerifyThatHomeButtonClickeble"/>
-          <include name="tearDown"/>
-          <include name="tc2"/>
-          <include name="setUp"/>
-        </methods>
-      </class> <!-- Com.DemoQA.TestPackage.TC03_VerifyThatHomeButtonClickeble -->
-      <class name="Com.DemoQA.TestPackage.TC04_VerifyTheRadioButtonsAreClickable">
-        <methods>
-          <include name="extentSetup"/>
-          <include name="VerifyTheRadioButtonYesIsClickable"/>
-          <include name="tearDown"/>
-          <include name="VerifyTheRadioButtonImpressiveIsClickable"/>
-          <include name="VerifyTheRadioButtonNoIsClickable"/>
-          <include name="setUp"/>
-        </methods>
-      </class> <!-- Com.DemoQA.TestPackage.TC04_VerifyTheRadioButtonsAreClickable -->
+      </class> <!-- screenshot.ScreenShot_For_FailedTestCases -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
